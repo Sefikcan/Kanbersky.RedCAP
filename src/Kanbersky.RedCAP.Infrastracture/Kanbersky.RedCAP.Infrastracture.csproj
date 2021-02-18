@@ -4,4 +4,15 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Outbox\EntityFramework\GenericRepository\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetCore.CAP" Version="3.1.2" />
+    <PackageReference Include="DotNetCore.CAP.RabbitMQ" Version="3.1.2" />
+    <PackageReference Include="DotNetCore.CAP.SqlServer" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.12" />
+  </ItemGroup>
+
 </Project>

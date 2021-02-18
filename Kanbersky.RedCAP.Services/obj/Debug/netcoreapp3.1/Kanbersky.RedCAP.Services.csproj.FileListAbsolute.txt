@@ -1,0 +1,15 @@
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Services\bin\Debug\netcoreapp3.1\Kanbersky.RedCAP.Services.deps.json
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Services\bin\Debug\netcoreapp3.1\Kanbersky.RedCAP.Services.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Services\bin\Debug\netcoreapp3.1\Kanbersky.RedCAP.Services.pdb
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Services\bin\Debug\netcoreapp3.1\Kanbersky.RedCAP.Core.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Services\bin\Debug\netcoreapp3.1\Kanbersky.RedCAP.Core.pdb
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Services\obj\Debug\netcoreapp3.1\Kanbersky.RedCAP.Services.csprojAssemblyReference.cache
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Services\obj\Debug\netcoreapp3.1\Kanbersky.RedCAP.Services.AssemblyInfoInputs.cache
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Services\obj\Debug\netcoreapp3.1\Kanbersky.RedCAP.Services.AssemblyInfo.cs
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Services\obj\Debug\netcoreapp3.1\Kanbersky.RedCAP.Services.csproj.CoreCompileInputs.cache
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Services\obj\Debug\netcoreapp3.1\Kanbersky.RedCAP.Services.csproj.CopyComplete
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Services\obj\Debug\netcoreapp3.1\Kanbersky.RedCAP.Services.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Services\obj\Debug\netcoreapp3.1\Kanbersky.RedCAP.Services.pdb
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Services\bin\Debug\netcoreapp3.1\Kanbersky.RedCAP.Infrastracture.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Services\bin\Debug\netcoreapp3.1\Kanbersky.RedCAP.Infrastracture.pdb
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Services\bin\Debug\netcoreapp3.1\Kanbersky.RedCAP.Core.xml
