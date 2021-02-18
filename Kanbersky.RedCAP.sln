@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5BF16704-86BE-415C-9243-290333C25169}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jenkinsfile", "Jenkinsfile", "{BD780989-8637-44B2-8B56-C1A8B9E555E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composes", "Composes", "{F35B3092-C4F9-43EC-89AF-45CC694BDBB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kanbersky.RedCAP.Infrastracture", "src\Kanbersky.RedCAP.Infrastracture\Kanbersky.RedCAP.Infrastracture.csproj", "{45D0F23B-610D-4EDA-846B-F847073E9811}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kanbersky.RedCAP.Core", "Kanbersky.RedCAP.Core\Kanbersky.RedCAP.Core.csproj", "{289E0254-E203-4A81-80F9-5531CA1A13DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45D0F23B-610D-4EDA-846B-F847073E9811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D0F23B-610D-4EDA-846B-F847073E9811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D0F23B-610D-4EDA-846B-F847073E9811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D0F23B-610D-4EDA-846B-F847073E9811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{289E0254-E203-4A81-80F9-5531CA1A13DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{289E0254-E203-4A81-80F9-5531CA1A13DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{289E0254-E203-4A81-80F9-5531CA1A13DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{289E0254-E203-4A81-80F9-5531CA1A13DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{45D0F23B-610D-4EDA-846B-F847073E9811} = {5BF16704-86BE-415C-9243-290333C25169}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F283A1E-0983-40AE-B242-089F7CA43C39}
+	EndGlobalSection
+EndGlobal
