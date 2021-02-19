@@ -6,6 +6,6 @@ D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Core\obj\Debug\ne
 D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Core\obj\Debug\netcoreapp3.1\Kanbersky.RedCAP.Core.csproj.CoreCompileInputs.cache
 D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Core\obj\Debug\netcoreapp3.1\Kanbersky.RedCAP.Core.dll
 D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Core\obj\Debug\netcoreapp3.1\Kanbersky.RedCAP.Core.pdb
-D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Core\obj\Debug\netcoreapp3.1\Kanbersky.RedCAP.Core.csprojAssemblyReference.cache
 D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Core\bin\Debug\netcoreapp3.1\Kanbersky.RedCAP.Core.xml
 D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Core\obj\Debug\netcoreapp3.1\Kanbersky.RedCAP.Core.xml
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Core\obj\Debug\netcoreapp3.1\Kanbersky.RedCAP.Core.csprojAssemblyReference.cache

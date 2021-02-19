@@ -4,5 +4,26 @@
         <name>Kanbersky.RedCAP.Core</name>
     </assembly>
     <members>
+        <member name="T:Kanbersky.RedCAP.Core.Extensions.SwaggerExtensions">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:Kanbersky.RedCAP.Core.Extensions.SwaggerExtensions.AddSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+            <param name="configuration"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Kanbersky.RedCAP.Core.Extensions.SwaggerExtensions.UseSwagger(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="app"></param>
+            <param name="configuration"></param>
+            <returns></returns>
+        </member>
     </members>
 </doc>

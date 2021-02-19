@@ -8,9 +8,11 @@
     ".NETCoreApp,Version=v3.1": {
       "Kanbersky.RedCAP.Services/1.0.0": {
         "dependencies": {
+          "Kanbersky.RedCAP.Common.Shared": "1.0.0",
           "Kanbersky.RedCAP.Core": "1.0.0",
           "Kanbersky.RedCAP.Infrastracture": "1.0.0",
-          "MediatR": "9.0.0"
+          "MediatR": "9.0.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "9.0.0"
         },
         "runtime": {
           "Kanbersky.RedCAP.Services.dll": {}
@@ -28,6 +30,17 @@
           }
         }
       },
+      "Consul/1.6.1.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Consul.dll": {
+            "assemblyVersion": "1.6.1.1",
+            "fileVersion": "1.6.1.1"
+          }
+        }
+      },
       "DotNetCore.CAP/3.1.2": {
         "dependencies": {
           "Microsoft.Extensions.Hosting.Abstractions": "3.1.7",
@@ -40,6 +53,25 @@
           "lib/netstandard2.0/DotNetCore.CAP.dll": {
             "assemblyVersion": "3.1.2.0",
             "fileVersion": "3.1.2.0"
+          }
+        }
+      },
+      "DotNetCore.CAP.Dashboard/3.1.2": {
+        "dependencies": {
+          "Consul": "1.6.1.1",
+          "DotNetCore.CAP": "3.1.2",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.12",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.12"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/DotNetCore.CAP.Dashboard.dll": {
+            "assemblyVersion": "3.1.2.0",
+            "fileVersion": "3.1.2.0"
+          }
+        },
+        "resources": {
+          "lib/netcoreapp3.1/zh/DotNetCore.CAP.Dashboard.resources.dll": {
+            "locale": "zh"
           }
         }
       },
@@ -60,7 +92,7 @@
           "DotNetCore.CAP": "3.1.2",
           "Microsoft.Data.SqlClient": "2.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.12",
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.7"
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.12"
         },
         "runtime": {
           "lib/netstandard2.0/DotNetCore.CAP.SqlServer.dll": {
@@ -93,6 +125,18 @@
       "MediatR/9.0.0": {
         "runtime": {
           "lib/netstandard2.1/MediatR.dll": {
+            "assemblyVersion": "9.0.0.0",
+            "fileVersion": "9.0.0.0"
+          }
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
+        "dependencies": {
+          "MediatR": "9.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Extensions.Microsoft.DependencyInjection.dll": {
             "assemblyVersion": "9.0.0.0",
             "fileVersion": "9.0.0.0"
           }
@@ -222,15 +266,55 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/3.1.12": {},
-      "Microsoft.EntityFrameworkCore.Relational/3.1.7": {
+      "Microsoft.EntityFrameworkCore.Design/3.1.12": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {
+            "assemblyVersion": "3.1.12.0",
+            "fileVersion": "3.100.1221.7003"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.InMemory/3.1.12": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "3.1.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "assemblyVersion": "3.1.12.0",
+            "fileVersion": "3.100.1221.7003"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Relational/3.1.12": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "3.1.12"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {
-            "assemblyVersion": "3.1.7.0",
-            "fileVersion": "3.100.720.37109"
+            "assemblyVersion": "3.1.12.0",
+            "fileVersion": "3.100.1221.7003"
           }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.SqlServer/3.1.12": {
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "2.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.12"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {
+            "assemblyVersion": "3.1.12.0",
+            "fileVersion": "3.100.1221.7003"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/3.1.12": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "3.1.12"
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
@@ -1103,6 +1187,11 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "Kanbersky.RedCAP.Common.Shared/1.0.0": {
+        "runtime": {
+          "Kanbersky.RedCAP.Common.Shared.dll": {}
+        }
+      },
       "Kanbersky.RedCAP.Core/1.0.0": {
         "dependencies": {
           "AutoMapper": "10.1.1",
@@ -1117,9 +1206,15 @@
       "Kanbersky.RedCAP.Infrastracture/1.0.0": {
         "dependencies": {
           "DotNetCore.CAP": "3.1.2",
+          "DotNetCore.CAP.Dashboard": "3.1.2",
           "DotNetCore.CAP.RabbitMQ": "3.1.2",
           "DotNetCore.CAP.SqlServer": "3.1.2",
-          "Microsoft.EntityFrameworkCore": "3.1.12"
+          "Kanbersky.RedCAP.Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "3.1.12",
+          "Microsoft.EntityFrameworkCore.Design": "3.1.12",
+          "Microsoft.EntityFrameworkCore.InMemory": "3.1.12",
+          "Microsoft.EntityFrameworkCore.SqlServer": "3.1.12",
+          "Microsoft.EntityFrameworkCore.Tools": "3.1.12"
         },
         "runtime": {
           "Kanbersky.RedCAP.Infrastracture.dll": {}
@@ -1140,12 +1235,26 @@
       "path": "automapper/10.1.1",
       "hashPath": "automapper.10.1.1.nupkg.sha512"
     },
+    "Consul/1.6.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AJkBiix1bT3cSZRO6OD0Ee31Co1qgVkmVBFwpxym9WdxH5K6LfmAZ8Vb8nGvo9EKC+ir2sv5fKIrY75aENcMDA==",
+      "path": "consul/1.6.1.1",
+      "hashPath": "consul.1.6.1.1.nupkg.sha512"
+    },
     "DotNetCore.CAP/3.1.2": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-LFgUxYNuoQmROiZgzz5oWR1n1uxuaM4/2j8B7DJ1t+pYpsJRIba3SXBbcIf89cHQ0I7zZJwTq2hnMFtp36dN0w==",
       "path": "dotnetcore.cap/3.1.2",
       "hashPath": "dotnetcore.cap.3.1.2.nupkg.sha512"
+    },
+    "DotNetCore.CAP.Dashboard/3.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-eonh3kjFOaol1qSyTrPhPSLFNoZXiSEN3kDf/phLVNaE9/RpRndVXnj8LRYm0QvjBFXZlr05PHEBbzw3EWgf8w==",
+      "path": "dotnetcore.cap.dashboard/3.1.2",
+      "hashPath": "dotnetcore.cap.dashboard.3.1.2.nupkg.sha512"
     },
     "DotNetCore.CAP.RabbitMQ/3.1.2": {
       "type": "package",
@@ -1181,6 +1290,13 @@
       "sha512": "sha512-8b3UYNxegHVYcJMG2zH8wn+YqxLvXG+eMfj0cMCq/jTW72p6O3PCKMkrIv0mqyxdW7bA4gblsocw7n+/9Akg5g==",
       "path": "mediatr/9.0.0",
       "hashPath": "mediatr.9.0.0.nupkg.sha512"
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/9.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-msreY4ogiPdIRWiCQVHQDytIQpsZCLWsixWPZ+Xs86KZrvtuiV8BDHbIT0kBmogynVYWNpspb3caw+86YU8L6w==",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/9.0.0",
+      "hashPath": "mediatr.extensions.microsoft.dependencyinjection.9.0.0.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
       "type": "package",
@@ -1238,12 +1354,40 @@
       "path": "microsoft.entityframeworkcore.analyzers/3.1.12",
       "hashPath": "microsoft.entityframeworkcore.analyzers.3.1.12.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Relational/3.1.7": {
+    "Microsoft.EntityFrameworkCore.Design/3.1.12": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-XLzwdgHPq5QgcmPZkkAso+SSW/tQqPD/iGaZv+fhl7lCb7VTPsjGE0BiPG9xiUP7OR+tlKNDffSzKimElZMaqA==",
-      "path": "microsoft.entityframeworkcore.relational/3.1.7",
-      "hashPath": "microsoft.entityframeworkcore.relational.3.1.7.nupkg.sha512"
+      "sha512": "sha512-sRpSIIVpP4ZZSvaYqaN3mWpD1dXPKLyT8xVCKZQ3OAswzxwn/NNg9XrVs6fU0yHbPDPeolvgoiXoHhb0fzB94Q==",
+      "path": "microsoft.entityframeworkcore.design/3.1.12",
+      "hashPath": "microsoft.entityframeworkcore.design.3.1.12.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/3.1.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A7g0LYoFG54afK1r7x2H0lB7ZaV4+5FQpd/uLfQmkcFeRtB70Fe92P5nT+LT/dL/aq8UTuIHUaPHGU3t1YWeHw==",
+      "path": "microsoft.entityframeworkcore.inmemory/3.1.12",
+      "hashPath": "microsoft.entityframeworkcore.inmemory.3.1.12.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Relational/3.1.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jauM73UEOy3B5bil2/1HDiz7lO00d7nkIrYDWe/WIc+pW0NIz0lC3AgyirjbuoIB0k3PyHBeszChPAGRrIH2fA==",
+      "path": "microsoft.entityframeworkcore.relational/3.1.12",
+      "hashPath": "microsoft.entityframeworkcore.relational.3.1.12.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.SqlServer/3.1.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KzT15iYnGiZYsvpVyZB0r5MiA/nKZ3f6MjImJeZEEUGAMe2WfFAhRgLTl8HFwt3OyySVBU81ItFpWZ+i/gLC+g==",
+      "path": "microsoft.entityframeworkcore.sqlserver/3.1.12",
+      "hashPath": "microsoft.entityframeworkcore.sqlserver.3.1.12.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Tools/3.1.12": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-qZiitt8bqFtK+KDaEOzYqZWRbIofWFGZLX5OYdFfU++RcxWPpLCBUOi87FJ+rVrHC95+54SaDAXgNFTzVsHX8w==",
+      "path": "microsoft.entityframeworkcore.tools/3.1.12",
+      "hashPath": "microsoft.entityframeworkcore.tools.3.1.12.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "type": "package",
@@ -1909,6 +2053,11 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "Kanbersky.RedCAP.Common.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Kanbersky.RedCAP.Core/1.0.0": {
       "type": "project",

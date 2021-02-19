@@ -1,0 +1,9 @@
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Common.Shared\bin\Debug\netcoreapp3.1\Kanbersky.RedCAP.Common.Shared.deps.json
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Common.Shared\bin\Debug\netcoreapp3.1\Kanbersky.RedCAP.Common.Shared.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Common.Shared\bin\Debug\netcoreapp3.1\Kanbersky.RedCAP.Common.Shared.pdb
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Common.Shared\obj\Debug\netcoreapp3.1\Kanbersky.RedCAP.Common.Shared.csprojAssemblyReference.cache
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Common.Shared\obj\Debug\netcoreapp3.1\Kanbersky.RedCAP.Common.Shared.AssemblyInfoInputs.cache
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Common.Shared\obj\Debug\netcoreapp3.1\Kanbersky.RedCAP.Common.Shared.AssemblyInfo.cs
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Common.Shared\obj\Debug\netcoreapp3.1\Kanbersky.RedCAP.Common.Shared.csproj.CoreCompileInputs.cache
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Common.Shared\obj\Debug\netcoreapp3.1\Kanbersky.RedCAP.Common.Shared.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Common.Shared\obj\Debug\netcoreapp3.1\Kanbersky.RedCAP.Common.Shared.pdb

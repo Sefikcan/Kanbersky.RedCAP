@@ -10,9 +10,11 @@
 
   <ItemGroup>
     <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Kanbersky.RedCAP.Common.Shared\Kanbersky.RedCAP.Common.Shared.csproj" />
     <ProjectReference Include="..\Kanbersky.RedCAP.Core\Kanbersky.RedCAP.Core.csproj" />
     <ProjectReference Include="..\src\Kanbersky.RedCAP.Infrastracture\Kanbersky.RedCAP.Infrastracture.csproj" />
   </ItemGroup>

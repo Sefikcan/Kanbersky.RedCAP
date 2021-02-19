@@ -84,3 +84,12 @@ D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\src\Kanbersky.RedCAP.Api\bin\Debug
 D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\src\Kanbersky.RedCAP.Api\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\src\Kanbersky.RedCAP.Api\obj\Debug\netcoreapp3.1\Kanbersky.RedCAP.Api.MvcApplicationPartsAssemblyInfo.cs
 D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\src\Kanbersky.RedCAP.Api\bin\Debug\netcoreapp3.1\Kanbersky.RedCAP.Core.xml
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\src\Kanbersky.RedCAP.Api\bin\Debug\netcoreapp3.1\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\src\Kanbersky.RedCAP.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\src\Kanbersky.RedCAP.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\src\Kanbersky.RedCAP.Api\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\src\Kanbersky.RedCAP.Api\bin\Debug\netcoreapp3.1\Consul.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\src\Kanbersky.RedCAP.Api\bin\Debug\netcoreapp3.1\DotNetCore.CAP.Dashboard.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\src\Kanbersky.RedCAP.Api\bin\Debug\netcoreapp3.1\zh\DotNetCore.CAP.Dashboard.resources.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\src\Kanbersky.RedCAP.Api\bin\Debug\netcoreapp3.1\Kanbersky.RedCAP.Common.Shared.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\src\Kanbersky.RedCAP.Api\bin\Debug\netcoreapp3.1\Kanbersky.RedCAP.Common.Shared.pdb

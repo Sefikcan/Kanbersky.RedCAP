@@ -7,3 +7,10 @@ D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\src\Kanbersky.RedCAP.Infrastractur
 D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\src\Kanbersky.RedCAP.Infrastracture\obj\Debug\netcoreapp3.1\Kanbersky.RedCAP.Infrastracture.csproj.CoreCompileInputs.cache
 D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\src\Kanbersky.RedCAP.Infrastracture\obj\Debug\netcoreapp3.1\Kanbersky.RedCAP.Infrastracture.dll
 D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\src\Kanbersky.RedCAP.Infrastracture\obj\Debug\netcoreapp3.1\Kanbersky.RedCAP.Infrastracture.pdb
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\src\Kanbersky.RedCAP.Infrastracture\bin\Debug\netcoreapp3.1\Kanbersky.RedCAP.Infrastracture.runtimeconfig.json
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\src\Kanbersky.RedCAP.Infrastracture\bin\Debug\netcoreapp3.1\Kanbersky.RedCAP.Infrastracture.runtimeconfig.dev.json
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\src\Kanbersky.RedCAP.Infrastracture\bin\Debug\netcoreapp3.1\Kanbersky.RedCAP.Core.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\src\Kanbersky.RedCAP.Infrastracture\bin\Debug\netcoreapp3.1\Kanbersky.RedCAP.Core.pdb
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\src\Kanbersky.RedCAP.Infrastracture\bin\Debug\netcoreapp3.1\Kanbersky.RedCAP.Core.xml
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\src\Kanbersky.RedCAP.Infrastracture\obj\Debug\netcoreapp3.1\Kanbersky.RedCAP.Infrastracture.csproj.CopyComplete
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\src\Kanbersky.RedCAP.Infrastracture\obj\Debug\netcoreapp3.1\Kanbersky.RedCAP.Infrastracture.genruntimeconfig.cache

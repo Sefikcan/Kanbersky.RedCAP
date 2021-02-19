@@ -1,16 +1,11 @@
 using Kanbersky.RedCAP.Core.Extensions;
+using Kanbersky.RedCAP.Infrastracture.Extensions;
+using Kanbersky.RedCAP.Services.Extensions;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Kanbersky.RedCAP.Api
 {
@@ -26,7 +21,9 @@ namespace Kanbersky.RedCAP.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddCore()
-                    .AddSwagger(Configuration);
+                    .AddSwagger(Configuration)
+                    .AddInfra(Configuration)
+                    .AddServices();
 
             services.AddControllers();
         }
@@ -45,6 +42,8 @@ namespace Kanbersky.RedCAP.Api
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseInfra();
 
             app.UseEndpoints(endpoints =>
             {

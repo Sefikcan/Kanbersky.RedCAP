@@ -5,14 +5,23 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Outbox\EntityFramework\GenericRepository\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="DotNetCore.CAP" Version="3.1.2" />
+    <PackageReference Include="DotNetCore.CAP.Dashboard" Version="3.1.2" />
     <PackageReference Include="DotNetCore.CAP.RabbitMQ" Version="3.1.2" />
     <PackageReference Include="DotNetCore.CAP.SqlServer" Version="3.1.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.12" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Kanbersky.RedCAP.Core\Kanbersky.RedCAP.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Outbox\EntityFramework\GenericRepository\" />
   </ItemGroup>
 
 </Project>

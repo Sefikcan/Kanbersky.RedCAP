@@ -13,3 +13,5 @@ D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Services\obj\Debu
 D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Services\bin\Debug\netcoreapp3.1\Kanbersky.RedCAP.Infrastracture.dll
 D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Services\bin\Debug\netcoreapp3.1\Kanbersky.RedCAP.Infrastracture.pdb
 D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Services\bin\Debug\netcoreapp3.1\Kanbersky.RedCAP.Core.xml
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Services\bin\Debug\netcoreapp3.1\Kanbersky.RedCAP.Common.Shared.dll
+D:\WorkSpaces\Back-end\Other\Kanbersky.RedCAP\Kanbersky.RedCAP.Services\bin\Debug\netcoreapp3.1\Kanbersky.RedCAP.Common.Shared.pdb
