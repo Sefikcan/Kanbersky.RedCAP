@@ -18,6 +18,8 @@ namespace Kanbersky.RedCAP.Services.Consumers
         {
             _logger.LogInformation("Send Email Start!");
 
+            throw new System.Exception("asda");
+
             //Some Business Operation
 
             _logger.LogInformation("Send Email End!");

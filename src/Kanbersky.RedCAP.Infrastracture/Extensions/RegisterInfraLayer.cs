@@ -28,15 +28,16 @@ namespace Kanbersky.RedCAP.Infrastracture.Extensions
 
             services.AddCap(c =>
             {
-                c.UseSqlServer(outboxDbSettings.ConnectionStrings);
+                c.UseEntityFramework<OrderDbContext>();
+
                 c.UseRabbitMQ(outboxRabbitMQSettings.Uri);
                 c.UseDashboard();
             });
 
             services.AddDbContext<OrderDbContext>(c =>
-                c.UseSqlServer(orderDbSettings.ConnectionStrings), ServiceLifetime.Singleton);
+                c.UseSqlServer(orderDbSettings.ConnectionStrings), ServiceLifetime.Transient);
 
-            services.AddScoped(typeof(IEfGenericRepository<>), typeof(EfGenericRepository<>));
+            //services.AddScoped(typeof(IEfGenericRepository<>), typeof(EfGenericRepository<>));
 
             return services;
         }

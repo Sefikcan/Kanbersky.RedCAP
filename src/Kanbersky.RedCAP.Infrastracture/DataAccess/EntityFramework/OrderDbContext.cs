@@ -9,7 +9,7 @@ namespace Kanbersky.RedCAP.Infrastracture.DataAccess.EntityFramework
         {
         }
 
-        public DbSet<Entities.Order> Orders { get; set; }
+        public DbSet<Order> Orders { get; set; }
 
         public DbSet<OrderItem> OrderItems { get; set; }
     }

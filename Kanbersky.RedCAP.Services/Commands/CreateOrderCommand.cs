@@ -27,17 +27,20 @@ namespace Kanbersky.RedCAP.Services.Commands
     {
         private readonly ICapPublisher _publisher;
         private readonly IMapping _mapping;
-        private readonly IEfGenericRepository<Infrastracture.Entities.Order> _orderRepository;
         private readonly OutboxDbSettings _outboxDbSettings;
+        private readonly OrderDbContext _orderContext;
+        //private readonly IEfGenericRepository<Infrastracture.Entities.Order> _orderRepository;
 
         public CreateOrderCommandHandler(ICapPublisher publisher,
             IMapping mapping,
-            IEfGenericRepository<Infrastracture.Entities.Order> orderRepository,
+            OrderDbContext orderContext,
+            //IEfGenericRepository<Infrastracture.Entities.Order> orderRepository,
             OutboxDbSettings outboxDbSettings)
         {
             _publisher = publisher;
             _mapping = mapping;
-            _orderRepository = orderRepository;
+            _orderContext = orderContext;
+            //_orderRepository = orderRepository;
             _outboxDbSettings = outboxDbSettings;
         }
 
@@ -45,17 +48,15 @@ namespace Kanbersky.RedCAP.Services.Commands
         {
             CreateOrderResponseModel orderResponseModel = null;
 
-            using (var connection = new SqlConnection(_outboxDbSettings.ConnectionStrings))
+            using (var trans = _orderContext.Database.BeginTransaction(_publisher, autoCommit: true))
             {
-                using (var transaction = connection.BeginTransaction(_publisher, autoCommit: true))
-                {
-                    var order = _mapping.Map<CreateOrderRequestModel, Infrastracture.Entities.Order>(request.CreateOrderRequest);
+                var order = _mapping.Map<CreateOrderRequestModel, Infrastracture.Entities.Order>(request.CreateOrderRequest);
 
-                    var response = await _orderRepository.AddAsync(order);
-                    orderResponseModel = _mapping.Map<Infrastracture.Entities.Order, CreateOrderResponseModel>(response);
+                var response = await _orderContext.AddAsync(order);
+                await _orderContext.SaveChangesAsync();
+                orderResponseModel = _mapping.Map<Infrastracture.Entities.Order, CreateOrderResponseModel>(response.Entity);
 
-                    await _publisher.PublishAsync(nameof(CreateOrderSendEmailModel), new CreateOrderSendEmailModel { OrderId = order.Id });
-                }
+                _publisher.Publish(nameof(CreateOrderSendEmailModel), new CreateOrderSendEmailModel { OrderId = response.Entity.Id });
             }
 
             return orderResponseModel;
